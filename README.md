@@ -8,11 +8,10 @@ Below is an example use case of the class.
 chipmunks = Film("Alvin and the Chipmunks: The Squeakquel", 0)
 age = int(input("How old are you?"))
 
-print()
-if (age >= chipmunks.age_rating()):
-    print("You may watch the film " + chipmunks.name())
+if (age >= chipmunks.age_rating):
+    print("You may watch the film " + chipmunks.name)
 else:
-    print("You may not watch the film " + chipmunks.name())
+    print("You may not watch the film " + chipmunks.name)
 ```
 
 ```plaintext
